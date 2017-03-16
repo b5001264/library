@@ -8,8 +8,10 @@ String author
 String isbn
 Date dateBorrowed
 Date returnDate
-String student
+Student student
 Boolean overdue
+
+static hasMany=[bookreviews:BookReview]
 
     static constraints = {
 title blank:false, nullable:false

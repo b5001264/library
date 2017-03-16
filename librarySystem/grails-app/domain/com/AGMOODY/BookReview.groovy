@@ -2,9 +2,9 @@ package com.AGMOODY
 
 class BookReview {
 
-String book
+Book book
 Date dateMade
-String student
+Student student
 String review
 
     static constraints = {

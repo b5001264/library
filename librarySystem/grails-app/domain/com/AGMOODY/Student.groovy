@@ -7,7 +7,9 @@ String email
 String username
 String password
 String studentID
-String course
+Course course
+
+static hasMany=[books:Book]
 
     static constraints = {
 name blank:false, nullable:false

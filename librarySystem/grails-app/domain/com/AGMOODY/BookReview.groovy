@@ -2,13 +2,14 @@ package com.AGMOODY
 
 class BookReview {
 
-Book book
 Date dateMade
 Student student
 String review
 
+static hasMany=[books:Book]
+static belongsTo = Book
+
     static constraints = {
-book blank:false, nullable:false
 dateMade blank:false, nullable:false
 student blank:false, nullable:false
 review blank:false, nullable:false

@@ -10,7 +10,17 @@ building: 'Sheffield Hallam',
 address: 'Arundel Gate',
 openingHours: '09:00 - 17:00',
 location: 'Sheffield',
-studySpaces: '42'
+studySpaces: 42
+
+).save()
+
+def library2 = new Library (
+
+building: 'Sheffield Hallam',
+address: 'Cantor',
+openingHours: '09:00 - 17:00',
+location: 'Sheffield',
+studySpaces: 106
 
 ).save()
 
@@ -21,6 +31,17 @@ code: 'ACES',
 leader: 'Tonderai',
 department: 'Computing',
 description: 'This is a Computing course',
+studyMode: 'Full Time'
+
+).save()
+
+def course2 = new Course (
+
+title: 'Business and Computing',
+code: 'ACES',
+leader: 'Matthew Love',
+department: 'Computing',
+description: 'This is a Business and Computing course',
 studyMode: 'Full Time'
 
 ).save()
@@ -43,7 +64,7 @@ email: 'b5001263@my.shu.ac.uk',
 username: 'Harvey',
 password: 'password1',
 studentID: 'b5001263',
-course: course1
+course: course2
 
 ).save()
 
@@ -54,7 +75,7 @@ email: 'b5001262@my.shu.ac.uk',
 username: 'Milesy',
 password: 'password3',
 studentID: 'b5001262',
-course: course1
+course: course2
 
 ).save()
 
@@ -97,7 +118,6 @@ overdue: false
 
 ).save()
 
-
 def bookReview1 = new BookReview(
 
 book: book1,
@@ -134,6 +154,18 @@ username: 'sjones',
 password: 'password',
 telephone: '01122345987',
 library: library1
+
+).save()
+
+def librarian2 = new Librarian(
+
+name: 'Mrs Berry',
+email: 'mrsberry@outlook.com',
+office: 'cantor',
+username: 'mberry',
+password: 'password',
+telephone: '01122456097',
+library: library2
 
 ).save()
 

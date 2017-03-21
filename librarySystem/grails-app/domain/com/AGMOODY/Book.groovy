@@ -13,6 +13,7 @@ Boolean overdue
 
 static hasMany=[bookreviews:BookReview]
 
+
     static constraints = {
 title blank:false, nullable:false
 subject blank:false, nullable:false

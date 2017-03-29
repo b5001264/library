@@ -8,6 +8,7 @@ String username
 String password
 String studentID
 Course course
+Library library
 
 static hasMany=[books:Book]
 

@@ -11,7 +11,8 @@ Date returnDate
 Student student
 Boolean overdue
 
-static hasMany=[bookreviews:BookReview]
+static hasMany=[bookreviews:BookReview, librarys:Library]
+static belongsTo=Library
 
 
     static constraints = {

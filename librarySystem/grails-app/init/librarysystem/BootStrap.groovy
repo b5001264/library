@@ -120,6 +120,7 @@ overdue: false
 
 def bookReview1 = new BookReview(
 
+title: 'fantastic mr fox,
 book: book1,
 dateMade: new Date('17/03/2017'),
 student: student1,
@@ -129,6 +130,7 @@ review: 'very good'
 
 def bookReview2 = new BookReview(
 
+title: 'twits',
 book: book2,
 dateMade: new Date('18/03/2017'),
 student: student2,
@@ -138,6 +140,7 @@ review: 'did not like this book'
 
 def bookReview3 = new BookReview(
 
+title: 'the witches',
 book: book3,
 dateMade: new Date('19/03/2017'),
 student: student3,

@@ -17,6 +17,7 @@
    <div class="row">
 
 	<asset:image src="Sheff_Hallam_Logo.fw.png" height="200px" width="100%"/>
+	<g:libloginToggle/>
     </div>
    <g:layoutBody/>
 
